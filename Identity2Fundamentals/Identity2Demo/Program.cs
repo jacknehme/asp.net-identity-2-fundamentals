@@ -33,6 +33,7 @@ namespace Identity2Demo
 
             var isMatch = userManager.CheckPassword(user, password);
             Console.WriteLine("Password Match: {0}", isMatch);
+            Console.Read();
 
         }
     }
